@@ -1,3 +1,4 @@
+/* Início CSS Global */
 * {
     margin: 0;
     padding: 0;
@@ -5,35 +6,27 @@
     font-family: sans-serif;
     text-decoration: none;
 }
-
 .container {
     padding: 120px 80px;
 }
-
 .destaque {
-    font-weight: 1000;
+    font-weight: 700;
     font-style: italic;
-    letter-spacing: 2px; 
-    line-height: 4.5;
 }
-
-h1{
-    text-align: center;
-}
-
 h3 {
     font-size: 36px;
     color: #3c184e;
     text-align: center;
     margin: 0 0 45px;
 }
+/* Fim CSS Global */
 
+/* Início CSS Banner */
 .banner-topo {
     background-image: url("/img/banner-topo.jpg");
     background-position: center;
     background-size: cover;
 }
-
 .container-nome-logo {
     max-width: 250px;
     color: #3c184e;
@@ -51,7 +44,6 @@ h3 {
     text-align: center;
     margin: 0;
 }
-
 .container-titulo-topo {
     max-width: 1024px;
     border-radius: 10px;
@@ -70,11 +62,11 @@ h3 {
 .link-fale-conosco {
     text-align: center;
     width: 200px;
-    padding: 20px 25px;
+    padding: 10px 25px;
     font-size: 20px;
     background-color: #3c184e;
-    border-radius: 20px;
-    margin:  auto;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 .link-fale-conosco a {
     color: #ffff;
@@ -82,7 +74,9 @@ h3 {
 .container-titulo-topo img {
     width: 20px;
 }
+/* Fim CSS Banner */
 
+/* Início CSS Nossos Serviços */
 .box-servicos {
     max-width: 800px;
     color: #3c184e;
@@ -101,28 +95,29 @@ h3 {
     box-shadow: 3px 6px 10px 6px #0000005c;
     border-radius: 5px;
 }
+/* Fim CSS Nossos Serviços */
 
+/* Início CSS Faixa */
 .faixa {
     background-color: #3c184e;
     text-align: center;
 }
-
 .text-faixa {
     max-width: 800px;
     margin: 0 auto 50px;
     color: #fff;
     font-size: 40px;
 }
-
 .redes-sociais a {
     margin: 0 20px;
 }
-
 .redes-sociais img {
     width: 50px;
     height: 50px;
 }
+/* Fim CSS Faixa */
 
+/* Início CSS Marcas */
 .container-marcas {
     max-width: 800px;
     margin: 0 auto;
@@ -133,7 +128,9 @@ h3 {
     height: 148px;
     margin: 0 15px;
 }
+/* Fim CSS Marcas */
 
+/* Início CSS Onde estamos */
 .onde-estamos {
     text-align: center;
 }
@@ -146,7 +143,9 @@ h3 {
     width: 800px;
     height: 450px;
 }
+/* Fim CSS Onde estamos */
 
+/* Início CSS Rodapé */
 .rodape {
     background-color: #3c184e;
     padding: 10px 0;
@@ -156,3 +155,4 @@ h3 {
     font-size: 12px;
     text-align: center;
 }
+/* Fim CSS Rodapé */
