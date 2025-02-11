@@ -70,11 +70,11 @@ h3 {
 .link-fale-conosco {
     text-align: center;
     width: 200px;
-    padding: 10px 25px;
+    padding: 20px 25px;
     font-size: 20px;
     background-color: #3c184e;
-    border-radius: 10px;
-    margin: 0 auto;
+    border-radius: 20px;
+    margin:  auto;
 }
 .link-fale-conosco a {
     color: #ffff;
